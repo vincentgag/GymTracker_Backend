@@ -9,7 +9,6 @@ async function bootstrap() {
     .setTitle('GymTracker API')
     .setDescription('API for GymTracker App')
     .setVersion('1.0')
-    .addTag('gymtracker')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

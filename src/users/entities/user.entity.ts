@@ -30,6 +30,7 @@ export class User extends BaseEntity {
   @Column()
   @ApiProperty()
   firstName: string;
+
   @Column()
   @CreateDateColumn()
   @ApiProperty()
