@@ -7,6 +7,9 @@ import { UsersModule } from './users/users.module';
 import { DBConfig } from './config/DBConfig.config';
 import { WorkoutModule } from './workout/workout.module';
 import { AuthModule } from './auth/auth.module';
+import { ExerciceModule } from './exercices/exercices.module';
+import { MusclesModule } from './muscles/muscles.module';
+import { EquipementsModule } from './equipements/equipements.module';
 
 @Module({
   imports: [
@@ -20,6 +23,9 @@ import { AuthModule } from './auth/auth.module';
     UsersModule,
     WorkoutModule,
     AuthModule,
+    ExerciceModule,
+    MusclesModule,
+    EquipementsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
